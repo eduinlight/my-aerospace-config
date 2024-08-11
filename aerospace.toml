@@ -85,9 +85,13 @@ alt-shift-j = 'move down'
 alt-shift-k = 'move up'
 alt-shift-l = 'move right'
 
-# mode windows to relative monitor
-alt-shift-ctrl-h = ['move-node-to-monitor left', 'focus-monitor left']
-alt-shift-ctrl-l = ['move-node-to-monitor right', 'focus-monitor right']
+# move windows to relative monitor
+alt-shift-ctrl-h = ['move-node-to-monitor left', 'focus-monitor next']
+alt-shift-ctrl-l = ['move-node-to-monitor right', 'focus-monitor prev']
+
+# focus monitor
+alt-d = 'focus-monitor right'
+alt-a = 'focus-monitor left'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#resize
 alt-shift-minus = 'resize smart -50'
