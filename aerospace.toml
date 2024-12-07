@@ -65,7 +65,7 @@ outer.right =      2
 
 # You can uncomment this line to open up terminal with alt + enter shortcut
 # See: https://nikitabobko.github.io/AeroSpace/commands#exec-and-forget
-alt-enter = 'exec-and-forget open -n /Applications/Alacritty.app'
+alt-enter = 'exec-and-forget open -n /Applications/WezTerm.app'
 alt-shift-b = 'exec-and-forget open -n /Applications/Google\ Chrome.app'
 alt-shift-q = 'exec-and-forget aerospace close'
 
